@@ -30,89 +30,131 @@ namespace EmpireLauncher
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmpireLauncher));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.PlayeriOnline = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.joinButton = new System.Windows.Forms.Button();
-            this.DiscordButton = new System.Windows.Forms.Button();
-            this.Button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(45)))), ((int)(((byte)(79)))));
+            this.panel1.Controls.Add(this.PlayeriOnline);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(212, 622);
+            this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(212, 100);
+            this.panel2.TabIndex = 1;
+            // 
+            // PlayeriOnline
+            // 
+            this.PlayeriOnline.AutoSize = true;
+            this.PlayeriOnline.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PlayeriOnline.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.PlayeriOnline.Location = new System.Drawing.Point(12, 314);
+            this.PlayeriOnline.Name = "PlayeriOnline";
+            this.PlayeriOnline.Size = new System.Drawing.Size(178, 25);
+            this.PlayeriOnline.TabIndex = 1;
+            this.PlayeriOnline.Text = "Playeri online: 40";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::EmpireLauncher.Properties.Resources.narcos;
+            this.pictureBox2.Location = new System.Drawing.Point(248, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(131, 213);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::EmpireLauncher.Properties.Resources.discordbanner;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 106);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(212, 107);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::EmpireLauncher.Properties.Resources.empirePic;
-            this.pictureBox1.Location = new System.Drawing.Point(122, 12);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::EmpireLauncher.Properties.Resources.fivem;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(253, 252);
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.Size = new System.Drawing.Size(212, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // joinButton
+            // label1
             // 
-            this.joinButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.joinButton.Location = new System.Drawing.Point(186, 304);
-            this.joinButton.Name = "joinButton";
-            this.joinButton.Size = new System.Drawing.Size(123, 64);
-            this.joinButton.TabIndex = 2;
-            this.joinButton.Text = "Join";
-            this.joinButton.UseVisualStyleBackColor = true;
-            this.joinButton.Click += new System.EventHandler(this.JoinButton_Click);
-            // 
-            // DiscordButton
-            // 
-            this.DiscordButton.BackColor = System.Drawing.Color.Transparent;
-            this.DiscordButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.DiscordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DiscordButton.Image = global::EmpireLauncher.Properties.Resources.discordhd;
-            this.DiscordButton.Location = new System.Drawing.Point(-3, 550);
-            this.DiscordButton.Name = "DiscordButton";
-            this.DiscordButton.Size = new System.Drawing.Size(73, 73);
-            this.DiscordButton.TabIndex = 4;
-            this.DiscordButton.Text = "-";
-            this.DiscordButton.UseVisualStyleBackColor = false;
-            this.DiscordButton.Click += new System.EventHandler(this.DiscordButton_Click);
-            // 
-            // Button1
-            // 
-            this.Button1.BackColor = System.Drawing.Color.Transparent;
-            this.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button1.Image = global::EmpireLauncher.Properties.Resources.github;
-            this.Button1.Location = new System.Drawing.Point(76, 550);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(73, 73);
-            this.Button1.TabIndex = 5;
-            this.Button1.UseVisualStyleBackColor = false;
-            this.Button1.Click += new System.EventHandler(this.Button1_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(248, 220);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Narcos (MAFIE)";
             // 
             // EmpireLauncher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = global::EmpireLauncher.Properties.Resources._7mM9R50;
-            this.ClientSize = new System.Drawing.Size(497, 622);
-            this.Controls.Add(this.Button1);
-            this.Controls.Add(this.DiscordButton);
-            this.Controls.Add(this.joinButton);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(66)))), ((int)(((byte)(117)))));
+            this.ClientSize = new System.Drawing.Size(1069, 622);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(513, 661);
-            this.MinimumSize = new System.Drawing.Size(513, 661);
             this.Name = "EmpireLauncher";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empire";
             this.Load += new System.EventHandler(this.EmpireLauncher_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button joinButton;
-        private System.Windows.Forms.Button DiscordButton;
-        private System.Windows.Forms.Button Button1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label PlayeriOnline;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
     }
 }
 

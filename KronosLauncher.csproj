@@ -98,5 +98,17 @@
   <ItemGroup>
     <None Include="Imagini\empirePic.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagini\fivem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagini\factiuni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagini\discordbanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagini\factiuni\narcos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

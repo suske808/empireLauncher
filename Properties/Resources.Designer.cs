@@ -73,6 +73,16 @@ namespace EmpireLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap discordbanner {
+            get {
+                object obj = ResourceManager.GetObject("discordbanner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap discordhd {
             get {
                 object obj = ResourceManager.GetObject("discordhd", resourceCulture);
@@ -93,6 +103,26 @@ namespace EmpireLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap factiuni {
+            get {
+                object obj = ResourceManager.GetObject("factiuni", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fivem {
+            get {
+                object obj = ResourceManager.GetObject("fivem", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap github {
             get {
                 object obj = ResourceManager.GetObject("github", resourceCulture);
@@ -103,9 +133,9 @@ namespace EmpireLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap instagram {
+        internal static System.Drawing.Bitmap narcos {
             get {
-                object obj = ResourceManager.GetObject("instagram", resourceCulture);
+                object obj = ResourceManager.GetObject("narcos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -24,21 +24,24 @@ namespace EmpireLauncher
 
         }
 
-        private void DiscordButton_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://discord.gg/scnqcfYs6r");
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://github.com/suske808/empireLauncher");
-        }
-
-        private void JoinButton_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("fivem://connect/188.212.102.26");
             this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            // factiuni image
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://discord.gg/jcKHhVXtpt");
+        }
+
+        // System.Diagnostics.Process.Start("fivem://connect/188.212.102.26");
+        // this.Close();
 
         // FiveMServerLauncher.Form1
         // Token: 0x06000004 RID: 4 RVA: 0x000021B0 File Offset: 0x000003B0

@@ -7,3 +7,4 @@ C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\EmpireLauncher.pdb
 C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.EmpireLauncher.resources
 C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.exe
 C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.pdb
+C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.csprojAssemblyReference.cache
