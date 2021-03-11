@@ -1,10 +1,9 @@
-C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\KronosLauncher.exe.config
-C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\KronosLauncher.exe
-C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\KronosLauncher.pdb
-C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.csprojAssemblyReference.cache
-C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.KronosLauncher.resources
-C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.Properties.Resources.resources
 C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.csproj.GenerateResource.cache
 C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.csproj.CoreCompileInputs.cache
-C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.exe
-C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\KronosLauncher.pdb
+C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.Properties.Resources.resources
+C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\EmpireLauncher.exe.config
+C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\EmpireLauncher.exe
+C:\Users\filStefan\source\repos\KronosLauncher\bin\Debug\EmpireLauncher.pdb
+C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.EmpireLauncher.resources
+C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.exe
+C:\Users\filStefan\source\repos\KronosLauncher\obj\Debug\EmpireLauncher.pdb

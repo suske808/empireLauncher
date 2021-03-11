@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KronosLauncher
+namespace EmpireLauncher
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace KronosLauncher
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new KronosLauncher());
+            Application.Run(new EmpireLauncher());
         }
     }
 }

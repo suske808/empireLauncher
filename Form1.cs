@@ -10,38 +10,33 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace KronosLauncher
+namespace EmpireLauncher
 {
-    public partial class KronosLauncher : Form
+    public partial class EmpireLauncher : Form
     {
-        public KronosLauncher()
+        public EmpireLauncher()
         {
             InitializeComponent();
         }
 
-        private void KronosLauncher_Load(object sender, EventArgs e)
+        private void EmpireLauncher_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void instagramButton_Click(object sender, EventArgs e)
+        private void DiscordButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.instagram.com/stefan.mst/");
+            System.Diagnostics.Process.Start("https://discord.gg/scnqcfYs6r");
         }
 
-        private void discordButton_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://discord.gg/kronosro");
+            System.Diagnostics.Process.Start("https://github.com/suske808/empireLauncher");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void JoinButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/suske808/kronosLauncher");
-        }
-
-        private void joinButton_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start($"fivem://connect/cfx.re/join/345al8");
+            System.Diagnostics.Process.Start("fivem://connect/188.212.102.26");
             this.Close();
         }
 

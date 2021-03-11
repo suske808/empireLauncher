@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{68C34612-DF8D-4983-ABF1-B806B4AA1291}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>KronosLauncher</RootNamespace>
-    <AssemblyName>KronosLauncher</AssemblyName>
+    <RootNamespace>EmpireLauncher</RootNamespace>
+    <AssemblyName>EmpireLauncher</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -59,18 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -81,19 +81,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="kronosPic.png" />
+    <None Include="Imagini\kronosPic.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="7mM9R50.jpg" />
+    <None Include="Imagini\7mM9R50.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="instagram.png" />
+    <None Include="Imagini\github.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="discordhd.png" />
+    <None Include="Imagini\instagram.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="github.png" />
+    <None Include="Imagini\discordhd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagini\empirePic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
